@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.line-pages {
+  height: 10px;
+  background-color: #2994b1;
+  border: none;
+}
+
+.header-containe {
+  width: 100%;
+  height: 71px;
+  background-color: #122c3a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  width: 66px;
+  padding: 15px 10px;
+}
+
+.header-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 46px;
+  background-color: #24627a;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-bar li a {
+  color: black;
+  text-decoration: none;
+}
+
+.img-nav,
+.redes-footer img {
+  width: 20px;
+}
+
+.section-blog {
+  display: flex;
+  gap: 50px;
+  padding: 30px;
+  min-height: 100vh;
+}
+
+.blog-container {
+  background-color: #e0f7fa;
+  border-radius: 10px;
+  padding: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.blog-tags {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background-color: #09b3e2;
+  color: white;
+  padding: 0.2rem 0.6rem;
+  border-radius: 15px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.blog-container p {
+  margin-bottom: 3px;
+}
+
+.blog-group .blog-container p:first-of-type {
+  margin-top: 20px;
+}
+
+.blog-container button {
+  margin-top: 10px;
+  background-color: #09b3e2;
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.blog-container button:hover {
+  background-color: #067fa4;
+}
+
+.section-blog article:first-child {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section-blog > .blog-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.blog-group .blog-container {
+  flex: 1;
+}
+
+.blog-group .blog-container:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.blog-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.blog-footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.blog-footer button {
+  background-color: #09b3e2;
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.blog-footer button:hover {
+  background-color: #067fa4;
+}
+
+footer {
+  width: 100%;
+  background-color: #234556;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.redes-container,
+.contacto-container,
+.suscripcion-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.redes-footer {
+  display: flex;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.redes-footer li {
+  list-style: none;
+  margin-left: 10px;
+}
+
+.contacto-container ul,
+.redes-container ul {
+  padding: 0;
+}
+
+.contacto-container li,
+.redes-container li {
+  list-style: none;
+}
+
+.boton-container {
+  width: 100%;
+  height: 39px;
+  border: 1px solid #d7f1f6;
+  border-radius: 20px;
+  background-color: #d7f1f6;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3.05rem;
+}
+
+.boton-container p {
+  color: black;
+  font-size: 12px;
+}
+
+.boton-container button {
+  width: 30%;
+  height: 35px;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  background-color: red;
+  cursor: pointer;
+}
