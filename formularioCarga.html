@@ -5,13 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Blog técnico interactivo de ingeniería y procesos industriales."
+      content="Formulario para crear artículos técnicos en el blog de VideoIngenieríaViral."
     />
-    <meta
-      name="keywords"
-      content="blog, ingeniería, plásticos, artículos técnicos"
-    />
-    <title>Blog | VideoIngenieriaViral</title>
+    <meta name="keywords" content="blog, formulario, artículos, ingeniería" />
+    <title>Crear Artículo | VideoIngenieriaViral</title>
     <link rel="stylesheet" href="../css/styles.css" />
   </head>
 
@@ -31,12 +28,12 @@
       <nav>
         <ul class="nav-bar">
           <li>
-            <a href="#"
+            <a href="/index.html"
               ><img src="../assets/img/logoHome.png" class="img-nav" />BLOG</a
             >
           </li>
           <li>
-            <a href="/formularioCarga.html"
+            <a href="#"
               ><img src="../assets/img/logoTexto.png" class="img-nav" />CARGA</a
             >
           </li>
@@ -54,7 +51,30 @@
 
     <main>
       <section class="section-blog">
-        <div class="blog-group" id="lista-articulos"></div>
+        <div class="formulario-wrapper">
+          <h2>Crear nuevo artículo</h2>
+          <form id="blogForm">
+            <input
+              type="text"
+              id="titulo"
+              placeholder="Título del artículo"
+              required
+            />
+            <textarea
+              id="contenido"
+              placeholder="Contenido del artículo"
+              rows="10"
+              required
+            ></textarea>
+            <button type="submit">Agregar artículo</button>
+          </form>
+          <p
+            id="mensaje-exito"
+            style="margin-top: 1rem; color: green; display: none"
+          >
+            ¡Artículo guardado con éxito!
+          </p>
+        </div>
       </section>
     </main>
 
