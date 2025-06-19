@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Editar Artículo | VideoIngenieriaViral</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <hr class="line-pages" />
+      <div class="header-containe">
+        <div class="logo-container">
+          <img
+            src="../assets/img/logoVIV.png"
+            alt="Logo VideoIngenieriaViral"
+            class="logo"
+          />
+        </div>
+        <h1 class="header-title">VIDEO INGENIERIA VIRAL</h1>
+      </div>
+      <nav>
+        <ul class="nav-bar">
+          <li>
+            <a href="index.html"
+              ><img src="../assets/img/logoHome.png" class="img-nav" />BLOG</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="../assets/img/logoTexto.png" class="img-nav" />CARGA</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="../assets/img/logoAvatar.png"
+                class="img-nav"
+                alt="Logo Usuario"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="formulario-wrapper">
+        <h2>Editar artículo</h2>
+        <form id="editForm">
+          <input
+            type="text"
+            id="titulo"
+            placeholder="Título del artículo"
+            required
+          />
+          <textarea
+            id="contenido"
+            placeholder="Contenido del artículo"
+            rows="10"
+            required
+          ></textarea>
+          <button type="submit">Guardar cambios</button>
+        </form>
+        <p
+          id="mensaje-edicion"
+          style="margin-top: 1rem; color: green; display: none"
+        >
+          ¡Artículo actualizado correctamente!
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <div class="redes-container">
+        <p>Nuestras Redes</p>
+        <ul class="redes-footer">
+          <li>
+            <a href="#"
+              ><img src="../assets/img/logoInstagram.png" alt="Instagram"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="../assets/img/logoLinkedIn.png" alt="LinkedIn"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="../assets/img/logoYouTube.png"
+                alt="YouTube"
+                class="img-footerYoutube"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="contacto-container">
+        <p>Contacto</p>
+        <ul>
+          <li>elviogonzalez@gmail.com</li>
+          <li>Córdoba, Argentina</li>
+        </ul>
+      </div>
+      <div class="suscripcion-container">
+        <p>Recibe Información Útil</p>
+        <div class="boton-container">
+          <p>Ingrese su email</p>
+          <button>Suscribite</button>
+        </div>
+      </div>
+    </footer>
+    <hr class="line-pages" />
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>
